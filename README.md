@@ -30,6 +30,7 @@ A synthetic clinical dataset was generated, including:
 
 ### 3. Logistic Regression
 A generalized linear model (GLM) with a binomial link function was used:
+
 glm(Disease ~ Age + Sex + BMI + Smoking + Biomarker1 + Biomarker2, family = binomial)
 
 ### 4. Model Interpretation
